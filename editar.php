@@ -1,5 +1,7 @@
 <?php
 
+require_once "includes/header.php";
+
 require_once "config/conexao.php";
 
 
@@ -46,6 +48,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
 }
 
+
 ?>
 
 <h2>Editar Produto</h2>
@@ -82,3 +85,5 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     </button>
 
 </form>
+
+<?php require_once "includes/footer.php"; ?>
